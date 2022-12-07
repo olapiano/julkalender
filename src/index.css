@@ -7,7 +7,86 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input {
+  width: 40px;
+  margin: 0.3rem;
+  padding: 0.8em 1em;
+  border: 2px solid;
+  transition: 0.25s;
+  font: inherit;
+  line-height: 1;
+  color: #8fc866;
+  background: none;
+}
+
+button {
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  color: #8fc866;
+  transition: 0.25s;
+  background: none;
+  
+}
+
+button:hover {
+  background-color: #8fc866;
+  box-shadow: inset 0 0 0 2em #8fc866;
+  color: #fff;
+}
+
+#ok {
+  display: none;
+}
+
+p {
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  color: #8fc866;
+  transition: 0.25s;
+  background: none;
+}
+
+.question {
+  border: 2px solid;
+}
+
+.validation {
+  width: 40px;
+  height: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+}
+
+.main {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.question {
+  display: none;
+}
+
+.numbers {
+  display: none;
+  flex-direction: column;
+}
+
+#product {
+  display: none;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
 }
